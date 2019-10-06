@@ -44,4 +44,8 @@ class Song
     self.all.sort_by { |object| object.name }
   end
 
+  def self.new_from_filename(file)
+
+  end
+
 end
