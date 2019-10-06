@@ -40,8 +40,8 @@ class Song
     end
   end
 
-  self.alphabetical
-    self.all.sort_by { |object| object }
+  def self.alphabetical
+    self.all.sort_by { |i| object }
   end
 
 end
