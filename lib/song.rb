@@ -48,6 +48,8 @@ class Song
     data = file.split(/[-.]/)
     artist = data[0]
     song = data[1]
+    new_object = self.new_by_name(song)
+    new_object.artist_name = artist
   end
 
 end
