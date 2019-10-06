@@ -41,7 +41,7 @@ class Song
   end
 
   self.alphabetical
-    self.all.sort_by{ |object| object}
+    self.all.sort_by { |object| object }
   end
 
 end
